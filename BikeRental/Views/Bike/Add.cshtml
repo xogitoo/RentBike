@@ -1,0 +1,15 @@
+﻿@model BikeViewModel
+<h1> Add Student</h1>
+<hr />
+<form method="POST" enctype="multipart/form-data">
+    <input type="text" asp-for="Category" />
+    <input type="text" asp-for="Model" />
+    <input type="text" asp-for="Brand" />
+    <input type="text" asp-for="Price" />
+    <div class="form-group">
+        <label asp-for="Image">Choose a photo: </label>
+        <input asp-for="Image" />
+    </div>
+    <input type="submit" />
+</form>
+<hr />
